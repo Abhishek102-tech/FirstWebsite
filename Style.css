@@ -1,0 +1,190 @@
+.branch{
+    background-color:bisque;
+    color: aliceblue;
+    font-size: x-large;
+    width: 400px;
+}
+.home{
+    background-color: aqua;
+    padding-left: 250px;
+    margin-left: 250px;
+    width: 1200px;
+    font-size: 50px;
+}
+.home2{
+    background-color: aquamarine;
+    padding-left: 144px;
+    margin-left: 144px;
+    font-size: 30px;
+    width: 1200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.idximg{
+    background-image: url(https://ik.imagekit.io/noobgeek/career-catalyst-690-ai-prompts-for-success-in-every-role.webp);
+    height: 2000px;
+    width: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    padding-left: 250px;
+    margin-left: 250px;
+    background-image: url(https://th.bing.com/th/id/OIP.4F7khm7Zg0EsSVDIN1k6cAAAAA?rs=1&pid=ImgDetMain) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+.coding{
+    background-color: blanchedalmond;
+    width: 600px;
+    padding-left: 200px;
+    margin-left: 200px;
+}
+.coding2{
+    padding-left: 230px;
+    margin-left: 230px;
+    width: 400px;
+    border: 2px;
+    background-color: black;
+    color:aliceblue
+    
+}
+.code{
+    width: 500px;
+    height: 800px;
+    border: 2px solid salmon;
+    padding-left: 200px;
+    margin-left: 200px;
+    background-image: url(https://wallpapercave.com/wp/wp6121559.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.author{
+    padding-left: 200px;
+    margin-left: 200px;
+    width: 500px;
+    background-color: burlywood;
+    color: aqua;
+}
+
+.author2{
+    padding-left: 130px;
+    margin-left: 130px;
+    height: 700px;
+    width: 700px;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images2/Dark-Wallpaper-Nature.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:  chartreuse;
+    font-size: x-large;
+}
+
+.authimg{
+    height: 800px;
+    width: 400px;
+    border: 2px solid goldenrod;
+    background-image: url(https://thicc.mywaifulist.moe/waifus/13459/bcf459428dee369c325437a73d3ba78a237320ed20ba134f1f6991428fa16021_thumb.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-left: 250px;
+    margin-left: 250px;
+}
+
+.achieve{
+    padding-left: 150px;
+    margin-left: 150px;
+    width: 600px;
+    background-color: chocolate;
+}
+
+.achieve2{
+    padding-left: 200px;
+    margin-left: 200px;
+    width: 500px;
+    background-color: cyan;
+    font-size: x-large;
+}
+
+.acimg{
+    height: 400px;
+    width: 400px;
+    padding-left: 250px;
+    margin-left: 250px;
+    border: 2px solid crimson;
+    background-image: url(https://www.siteuptime.com/blog/wp-content/uploads/2021/07/a70e911d1e1f00197ebaa00b51c8519d-1024x682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    padding-left: 200px;
+    margin-left: 200px;
+    background-color: blueviolet;
+    color: aqua;
+    width: 500px;
+    font-size: xx-large;
+    border: 3px solid burlywood;
+}
+
+.contact2{
+    padding-left: 200px;
+    margin-left: 200px;
+    background-color:bisque;
+    font-size: xx-large;
+    width: 700px;
+    border: 4px solid skyblue;
+}
+.bgimg{
+    height: 2000px;
+    width: 2000px;
+    border: 5px solid crimson;
+    background-image: url(https://s3.us-west-1.wasabisys.com/ft-backgrounds/-mreflowMatt_Wolfe_a_colorful_digital_background_477e314c-c8c2-4491-88d5-1194cd417006.jpeg);
+    
+}
+
+.support{
+    padding-left: 200px;
+    margin-left: 200px;
+    font-size: 60px;
+    background-color: cadetblue;
+    width: 1200px;
+    border: 4px solid forestgreen;
+}
+.support2{
+    padding-left: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    background-color: fuchsia;
+    color: azure;
+    width: 1000px;
+    border: 4px solid rosybrown;
+}
+.support3{
+    padding-left: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    background-color: aliceblue;
+    width: 500px;
+    border: 2px solid blue;
+}
+.supimg{
+    padding-left: 200px;
+    margin-left: 200px;
+    height: 400px;
+    width: 1200px;
+    border: 5px solid antiquewhite;
+    background-image: url(https://pledgestar.com/jacksonave/Slide/Image/113710..png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.supbgimg{
+    height: 2500px;
+    width: 2500px;
+    background-image: url(https://joannapenabickley.com/wp-content/uploads/2023/03/MacBook-Pro-16_-1xX-1-1024x662.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
