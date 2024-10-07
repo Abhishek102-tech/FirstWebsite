@@ -76,7 +76,7 @@ body {
 }
 .code{
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     padding-left: 20px;
     margin-left: 0px;
     background-image: url(https://wallpapercave.com/wp/wp6121559.jpg);
@@ -84,20 +84,18 @@ body {
     background-size: contain;
 }
 .author{
-    padding-left: 20px;
+    padding: 20px;
     margin-left: 20px;
     width: 80vw;
     background-color: burlywood;
-    color: aqua;
+    color: maroon;
 }
 
 .author2{
-    padding-left: 10px;
-    margin-left: 10px;
-    height: 60vh;
+    padding: 10px;
+    margin: 10px;
     width: 75vw;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Summit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg);
-    background-repeat: no-repeat;
     background-size: contain;
     color:  chartreuse;
     font-size: large;
@@ -109,7 +107,7 @@ body {
     background-image: url(https://thicc.mywaifulist.moe/waifus/13459/bcf459428dee369c325437a73d3ba78a237320ed20ba134f1f6991428fa16021_thumb.png);
     background-repeat: no-repeat;
     background-size:contain;
-    padding-left: 0px;
+    padding: 10px;
     margin-left: 15px;
 }
 
