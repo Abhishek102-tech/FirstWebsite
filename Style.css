@@ -178,7 +178,7 @@ body {
 }
 .support2{
     padding: 20px;
-    margin-left: 20px;
+    margin: 20px;
     font-size: large;
     background-color: fuchsia;
     color: azure;
@@ -187,7 +187,7 @@ body {
 }
 .support3{
     padding: 20px;
-    margin-left: 20px;
+    margin: 20px;
     font-size: large;
     background-color:chartreuse;
     width: 80vw;
