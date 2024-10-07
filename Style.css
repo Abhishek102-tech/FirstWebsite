@@ -30,6 +30,7 @@ body {
  .branch li a:hover{
     text-decoration: underline;
     color: blueviolet;
+    text-shadow: 2px 2px 2px #2d2d2d;
 }
  .branch li{
     display: inline-block;
