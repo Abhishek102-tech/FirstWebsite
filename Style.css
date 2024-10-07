@@ -84,34 +84,33 @@ body {
     background-size: contain;
 }
 .author{
-    padding-left: 200px;
-    margin-left: 200px;
-    width: 500px;
+    padding-left: 20px;
+    margin-left: 20px;
+    width: 80vw;
     background-color: burlywood;
     color: aqua;
 }
 
 .author2{
-    padding-left: 130px;
-    margin-left: 130px;
-    height: 700px;
-    width: 700px;
-    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images2/Dark-Wallpaper-Nature.jpg);
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 60vh;
+    width: 75vw;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Summit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     color:  chartreuse;
-    font-size: x-large;
+    font-size: large;
 }
 
 .authimg{
-    height: 800px;
-    width: 400px;
-    border: 2px solid goldenrod;
+    height: 80vh;
+    width: 80vw;
     background-image: url(https://thicc.mywaifulist.moe/waifus/13459/bcf459428dee369c325437a73d3ba78a237320ed20ba134f1f6991428fa16021_thumb.png);
     background-repeat: no-repeat;
-    background-size:cover;
-    padding-left: 250px;
-    margin-left: 250px;
+    background-size:contain;
+    padding-left: 0px;
+    margin-left: 15px;
 }
 
 .achieve{
