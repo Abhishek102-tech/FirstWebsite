@@ -2,35 +2,37 @@
     background-color:bisque;
     color: aliceblue;
     font-size: x-large;
-    width: 400px;
+    width: 50vw;
 }
 .home{
     background-color: aqua;
-    padding-left: 250px;
-    margin-left: 250px;
+    padding-left: 22px;
+    margin-left: 22px;
     width:50vw ;
     font-size: 50vh 50vw;
 }
 .home2{
     background-color: aquamarine;
-    padding-left: 144px;
-    margin-left: 144px;
+    padding-left: 22px;
+    margin-left: 22px;
     font-size: 50vh 50vw;
     width: 1200px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .idximg{
     background-image: url(https://ik.imagekit.io/noobgeek/career-catalyst-690-ai-prompts-for-success-in-every-role.webp);
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
 }
 .welcome{
-    height: 50vh;
-    width: 28vw;
-    padding-left: 250px;
-    margin-left: 250px;
+    height: 70vh;
+    width: 70vw;
+    padding-left: 25px;
+    margin-left: 25px;
     background-image: url(https://th.bing.com/th/id/OIP.4F7khm7Zg0EsSVDIN1k6cAAAAA?rs=1&pid=ImgDetMain) ;
     background-repeat: no-repeat;
     background-size: contain;
