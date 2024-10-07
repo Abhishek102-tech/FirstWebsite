@@ -1,15 +1,18 @@
 .idximg .branch li a{
-    text-decoration: none;
+    padding: 10px;
+    
     color: black;
 }
-
+.idximg .branch li{
+    display: inline-block;
+}
 
 
 .branch{
     background-color:bisque;
     color: aliceblue;
-    font-size:small;
-    width: 23vw;
+    font-size:medium;
+    width: 90vw;
 }
 .home{
     background-color: aqua;
