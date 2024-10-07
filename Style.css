@@ -61,28 +61,27 @@ body {
 
 .coding{
     background-color: blanchedalmond;
-    width: 600px;
-    padding-left: 200px;
-    margin-left: 200px;
+    width: 100vw;
+    padding-left: 15px;
+    margin-left: 15px;
 }
 .coding2{
-    padding-left: 230px;
-    margin-left: 230px;
-    width: 400px;
+    padding-left: 10px;
+    margin-left: 15vw;
+    width: 75vw;
     border: 2px;
     background-color: black;
     color:aliceblue
     
 }
 .code{
-    width: 500px;
-    height: 800px;
-    border: 2px solid salmon;
-    padding-left: 200px;
-    margin-left: 200px;
+    width: 100vw;
+    height:100vh;
+    padding-left: 20px;
+    margin-left: 0px;
     background-image: url(https://wallpapercave.com/wp/wp6121559.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .author{
     padding-left: 200px;
