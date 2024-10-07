@@ -168,45 +168,49 @@ body {
 }
 
 .support{
-    padding-left: 200px;
-    margin-left: 200px;
-    font-size: 60px;
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: large;
     background-color: cadetblue;
-    width: 1200px;
+    width: 80vw;
     border: 4px solid forestgreen;
 }
 .support2{
-    padding-left: 200px;
-    margin-left: 200px;
-    font-size: 40px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: large;
     background-color: fuchsia;
     color: azure;
-    width: 1000px;
+    width: 70vw;
     border: 4px solid rosybrown;
 }
 .support3{
-    padding-left: 200px;
-    margin-left: 200px;
-    font-size: 40px;
-    background-color: aliceblue;
-    width: 500px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: large;
+    background-color:chartreuse;
+    width: 80vw;
     border: 2px solid blue;
 }
 .supimg{
-    padding-left: 200px;
-    margin-left: 200px;
-    height: 400px;
-    width: 1200px;
-    border: 5px solid antiquewhite;
+    padding: 10px;
+    margin-left: 20px;
+    width:80vw;
+    height: 20vh;
     background-image: url(https://pledgestar.com/jacksonave/Slide/Image/113710..png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+.support3 a{
+    text-decoration: none;
+    color:chocolate;
 }
 .supbgimg{
-    height: 2500px;
-    width: 2500px;
+    margin-top: 0;
+    height: 100vh;
+    width: 100vw;
     background-image: url(https://joannapenabickley.com/wp-content/uploads/2023/03/MacBook-Pro-16_-1xX-1-1024x662.png);
-    background-repeat: no-repeat;
     background-size: contain;
 
 }
