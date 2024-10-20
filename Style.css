@@ -1,249 +1,388 @@
-body {
+:root{
+    --color-1:#0f1016;
+    --text-color:#f0f0f0;
+    --accent-color:#006aff;
+}
+*{
     margin: 0;
+    padding: 0;
 }
-.idximg .branch li a button{
-    font-size: medium;
-    padding: 12px;
-    border-radius: 12px;
-    border: 4px solid salmon;
-    background-color:darkorchid;
-    color: white;
-    transition-duration: 0.4s;
+
+.idximg{
+    background-image: url("https://wallpapercave.com/wp/STloZos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.idximg .branch li a button:hover{
-    text-decoration: underline;
-    background-color:bisque;
-    color: darkorchid;
-    box-shadow: 0 8px 16px 0 #2d2d2d;
+
+html{
+    font-size: larger;
 }
-.idximg .branch li a{
-    padding: 5px;
+.heading{
+    color: #f0f0f0;
+    margin:auto auto auto 24px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  animation: heading 3s ease-in-out 6s infinite alternate-reverse;
+}
+@keyframes heading {
+    form{color: #f0f0f0;}
+    to{background: linear-gradient(to right, violet, purple);
+        background-clip: text;
+        color: transparent;
+    }
+}
+nav{
+    height: 10vh;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.links-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav a{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+nav a:hover{
+    background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+}
+nav .home-link{
+    margin-right: auto;
+}
+nav svg{
+    fill:var(--text-color);
+}
+#sidebar-active{
+    display: none;
+}
+.open-sidebar, .close-sidebar{
+    display: none;
+}
+@media(max-width:2500px) {
+    .links-container{
+        flex-direction: column;
+        align-items: flex-start;
+    
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 40vw;
+
+    background-color: var(--color-1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.25);
+    transition: 0.75s ease-out;
+}
+nav a{
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: flex-start;
+}
+.open-sidebar, .close-sidebar{
+    padding: 20px;
+    display: block;
+}
+#sidebar-active:checked ~ .links-container{
+    right: 0;
+}
+#sidebar-active:checked ~ #overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+    
 }
 
-.idximg .branch li{
-    display: inline-block;
-    padding-left: 0;
-    margin-left: 0;
-    padding: 0.25rem;
-}
-
-.branch li a{
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-    transition-duration: 0.4s;
-}
- .branch li a:hover{
-    text-decoration: underline;
-    color: blueviolet;
-    /*text-shadow: 2px 2px 2px #2d2d2d;*/
-}
- .branch li{
-    display: inline-block;
-    padding-left: 0;
-    margin-left: 0;
-    padding: 0.25rem;
-}
-
-
-.branch{
-    background-color:bisque;
-    color: aliceblue;
-    font-size:medium;
-    width: 90vw;
-    margin: 0;
-}
-.home{
-    background-color: aqua;
-    padding-left: 22px;
-    margin-left: 22px;
-    width:80vw ;
-    font-size: 50vh 50vw;
+.home1{
+    display: flex;
+    background-color:aquamarine;
+    margin: 1vh;
+    padding:1vw;
+    width: 30vw;
+    font-size: 5vh;
+    color: chocolate;
+    animation: widthSet1 5s ease-in-out 0s infinite alternate-reverse;
+    flex-direction: row-reverse;
+    border:5px solid crimson;
 }
 .home2{
-    background-color: aquamarine;
-    padding-left: 22px;
-    margin-left: 22px;
-    font-size: 50vh 50vw;
-    width: 80vw;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    background-color: salmon;
+    margin: 2vh;
+    padding: 1vw;
+    font-size: 4vh;
+    color:darkmagenta;
+    width: 30vw;
+    animation: widthSet2 5s ease-in-out 5s infinite alternate-reverse;
+    flex-direction: row-reverse;
+    border: 5px solid magenta;
 }
-.idximg{
-    background-image: url(https://ik.imagekit.io/noobgeek/career-catalyst-690-ai-prompts-for-success-in-every-role.webp);
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
+@keyframes widthSet1 {
+    from{width: 50vw;}
+    to{width: 80vw;
+        background-image: linear-gradient(to right,skyblue, crimson);
+        color: azure;
+        border:5px solid chocolate ;
+    }
+}
+@keyframes widthSet2 {
+    from{width: 50vw;}
+    to{width: 80vw;
+        background-image: linear-gradient(to right,aliceblue, magenta);
+        color: aliceblue;
+        border:5px solid aliceblue ;
+    }
 }
 .welcome{
-    
-    height: 90vh;
-    width: 90vw;
-    padding-left: 25px;
-    margin-left: 3px;
-    background-image: url(https://th.bing.com/th/id/OIP.4F7khm7Zg0EsSVDIN1k6cAAAAA?rs=1&pid=ImgDetMain) ;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 45vw;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.img2{
+    width: 45vw;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+.dsgimg{
+    background-image: url("https://wallpaperaccess.com/full/2130690.jpg");
+    background-size: cover;
+    min-height:100vh;
+    min-width: 100vw;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 0;
-    }
-
-.coding{
-    background-color: blanchedalmond;
-    width: 100vw;
-    padding-left: 15px;
-    margin-left: 0px;
 }
-.coding2{
-    padding-left: 10px;
-    margin-left: 15vw;
-    width: 75vw;
-    border: 2px;
-    background-color: black;
-    color:aliceblue
-    
+.headers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.code{
-    width: 100vw;
-    height: 100vh;
-    padding-left: 20px;
-    margin-left: 0px;
-    background-image: url(https://wallpapercave.com/wp/wp6121559.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.author{
-    padding: 20px;
-    margin-left: 20px;
-    width: 80vw;
-    background-color: burlywood;
-    color: maroon;
-}
-
-.author2{
+.bg{
+    font-size: 7vh;
     padding: 10px;
-    margin: 10px;
-    width: 75vw;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Summit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg);
-    background-size: contain;
-    color:  chartreuse;
-    font-size: large;
-}
-
-.authimg{
-    height: 80vh;
-    width: 80vw;
-    background-image: url(https://thicc.mywaifulist.moe/waifus/13459/bcf459428dee369c325437a73d3ba78a237320ed20ba134f1f6991428fa16021_thumb.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    padding: 10px;
-    margin-left: 15px;
-}
-
-.achieve{
-    padding-left: 15px;
-    margin-left: 0px;
-    width: 90vw;
-    background-color: chocolate;
-}
-
-.achieve2{
-    padding-left: 20px;
-    margin-left: 10px;
+    display: flex;
+    max-height: 20vh;
     width: 70vw;
-    background-color: cyan;
-    font-size: large;
+    color:brown;
+    margin: 3vh;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    animation: lft 3s ease-in-out 3s infinite alternate-reverse;
 }
-
-.acimg{
-    height: 70vh;
-    width: 90vw;
-    padding-left: 10px;
-    margin-left: 15px;
-    background-image: url(https://www.siteuptime.com/blog/wp-content/uploads/2021/07/a70e911d1e1f00197ebaa00b51c8519d-1024x682.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.bg2{
+    font-size: 7vh;
+    padding: 10px;
+    display: flex;
+    width: 70vw;
+    color:crimson;
+    margin: 3vh;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    animation: appear 3s ease-in-out 0s infinite alternate-reverse ;
 }
-
-.contact{
-    padding: 20px;
-    margin-left: 20px;
-    background-color: blueviolet;
+@keyframes lft {
+    from{margin: 3vh;}
+    to{margin: -100vh;}
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.box1{
+    font-size: 3vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 30vw;
+    height: 30vh;
+   align-self: center;
+    margin: 3vh;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
+    background-image: url("https://wallpaperaccess.com/full/944291.jpg");
     color: aqua;
-    width: 70vw;
-    font-size: large;
-    border: 3px solid burlywood;
 }
-
-.contact2{
-    padding: 20px;
-    margin-left: 20px;
-    background-color:bisque;
-    font-size: large;
-    width: 70vw;
-    border: 4px solid skyblue;
+.box2{
+    font-size: 3vh;
+    background-image: url("https://th.bing.com/th/id/OIP.XlzitQh6UDoLKpks9O2rlgHaEo?rs=1&pid=ImgDetMain");
+    color:crimson;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 30vw;
+    height: 30vh;
+    align-self: center;
+    margin: 3vh;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
 }
-.bgimg{
+.box3{
+    font-size: 3vh;
+    height: 30vh;
+    width: 30vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-image: url("https://images3.alphacoders.com/100/1007428.jpg");
+    background-size: cover;
+    color:midnightblue;
+    align-self: center;
+    margin: 3vh;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
+}
+.box4{
+    font-size: 3vh;
+    width: 30vw;
+    height: 30vh;
+    align-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-image: url("https://wallpapercave.com/wp/wp3113575.jpg");
+    background-size: cover;
+    color:chartreuse;
+    margin: 3vh;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
+}
+.box5{
+    font-size: 3vh;
+    width: 30vw;
+    height: 30vh;
+    align-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-image: url("https://wallpaperaccess.com/full/59110.png");
+    background-size: cover;
+    margin: 3vh;
+    color:aquamarine;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
+}
+.box6{
+    font-size: 3vh;
+    width: 30vw;
+    height: 30vh;
+    align-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: blueviolet;
+    background-image: url("https://staticg.sportskeeda.com/editor/2023/05/59948-16831302812524-1920.jpg");
+    background-size: cover;
+    margin: 3vh;
+    padding: 1vh;
+    border-radius:60px;
+    border: 4px solid whitesmoke;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover{
+   filter: brightness(1);
+   transform: translateZ(300px);
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    transition: .5s;
+    filter: brightness(0);
+}
+.buttons{
+    transform-style: preserve-3d;
+    transform: perspective(3000px);
+}
+.banner{
+    width: 100%;
     height: 100vh;
-    width: 100vw;
-    background-size: contain;
-    border: 5px solid crimson;
-    background-image: url(https://s3.us-west-1.wasabisys.com/ft-backgrounds/-mreflowMatt_Wolfe_a_colorful_digital_background_477e314c-c8c2-4491-88d5-1194cd417006.jpeg);
-    
+    text-align: center;
+    overflow: hidden;
+    position: relative;
 }
-.contact2 p a{
-    text-decoration: none;
-    color:blueviolet;
+.banner .slider{
+    position: absolute;
+    width: 10vw;
+    height: 25vh;
+    top: 10%;
+    left: calc(50% - 5vw);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite ;
 }
-
-.support{
-    margin-top: 0;
-    padding: 20px;
-    margin-left: 20px;
-    font-size: large;
-    background-color: cadetblue;
-    width: 80vw;
-    border: 4px solid forestgreen;
+@keyframes autoRun {
+    from{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    to{
+        transform: perspective(1000px) rotateY(360deg);
+    }
 }
-.support2{
-    padding: 20px;
-    margin: 20px;
-    font-size: large;
-    background-color: fuchsia;
-    color: azure;
-    width: 70vw;
-    border: 4px solid rosybrown;
+.banner .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+    rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg ))
+    translateZ(550px);
 }
-.support3{
-    padding: 20px;
-    margin: 20px;
-    font-size: large;
-    background-color:chartreuse;
-    width: 80vw;
-    border: 2px solid blue;
+.banner .slider .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.supimg{
-    padding: 10px;
-    margin-left: 20px;
-    width:80vw;
-    height: 20vh;
-    background-image: url(https://pledgestar.com/jacksonave/Slide/Image/113710..png);
+.lgnimg{
+    background-image: url("https://i.pinimg.com/originals/14/a1/04/14a1041550508893cfead55a26fd0686.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-}
-.support3 a{
-    text-decoration: none;
-    color:chocolate;
-}
-.supbgimg{
-    margin-top: 0;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
-    background-image: url(https://joannapenabickley.com/wp-content/uploads/2023/03/MacBook-Pro-16_-1xX-1-1024x662.png);
-    background-size: contain;
-
+    background-attachment: fixed;
+}
+.pagebox{
+    display: flex;
+    backdrop-filter: blur(5px);
+    height: 70vh;
+    width: 40vw;
+    margin: 10vh 30vw;
+    border: 4px solid purple;
+    border-radius: 40px;
+    flex-wrap: wrap;
+}
+.lgnheading{
+    color: whitesmoke;
+    margin-left: 12vw;
+    font-size: 7vh;
+    padding: 4vh;
+}
+.username{
+    backdrop-filter: transparent;
+    height: 20vh;
+    width: 30vw;
 }
