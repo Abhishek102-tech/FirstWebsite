@@ -375,7 +375,7 @@ nav a{
     flex-wrap: wrap;
     justify-self: center;
     align-self: center;
-    margin: 10vh;
+    margin: 5vh;
     justify-content: center;
     align-items: center;
     min-width: 40vw;
@@ -454,6 +454,7 @@ input::placeholder{
 .create{
     color: aliceblue;
     font-size: 1rem;
+    align-self: center;
 }
 .create a{
     color: aliceblue;
