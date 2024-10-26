@@ -315,6 +315,8 @@ nav a{
 .box1,.box2,.box3,.box4,.box5,.box6{
     transition: .5s;
     filter: brightness(0);
+    min-width: 290px;
+    min-height: 220px;
 }
 .buttons{
     transform-style: preserve-3d;
