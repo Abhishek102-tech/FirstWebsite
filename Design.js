@@ -17,6 +17,11 @@ btn1.addEventListener("click",()=>{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/944291.jpg')";
         bg.style.backgroundRepeat="no-repeat";
         mode="off";
+        mode1="on";
+        mode2="on";
+        mode3="on";
+        mode4="on";
+        mode5="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
@@ -29,6 +34,11 @@ btn2.addEventListener("click",()=>{
         bg.style.backgroundImage="url('https://th.bing.com/th/id/OIP.XlzitQh6UDoLKpks9O2rlgHaEo?rs=1&pid=ImgDetMain')";
         bg.style.backgroundRepeat="no-repeat";
         mode1="off";
+        mode="on";
+        mode2="on";
+        mode3="on";
+        mode4="on";
+        mode5="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
@@ -41,6 +51,11 @@ btn3.addEventListener("click",()=>{
         bg.style.backgroundImage=" url('https://images3.alphacoders.com/100/1007428.jpg')"; 
         bg.style.backgroundRepeat="no-repeat";
         mode2="off";
+        mode="on";
+        mode1="on";
+        mode3="on";
+        mode4="on";
+        mode5="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
@@ -53,6 +68,11 @@ btn4.addEventListener("click",()=>{
         bg.style.backgroundImage=" url('https://wallpapercave.com/wp/wp3113575.jpg')"; 
         bg.style.backgroundRepeat="no-repeat";
         mode3="off";
+        mode="on";
+        mode2="on";
+        mode1="on";
+        mode4="on";
+        mode5="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
@@ -65,6 +85,11 @@ btn5.addEventListener("click",()=>{
         bg.style.backgroundImage=" url('https://wallpaperaccess.com/full/59110.png')"; 
         bg.style.backgroundRepeat="no-repeat";
         mode4="off";
+        mode="on";
+        mode2="on";
+        mode3="on";
+        mode1="on";
+        mode5="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
@@ -77,6 +102,11 @@ btn6.addEventListener("click",()=>{
         bg.style.backgroundImage=" url('https://staticg.sportskeeda.com/editor/2023/05/59948-16831302812524-1920.jpg')"; 
         bg.style.backgroundRepeat="no-repeat";
         mode5="off";
+        mode="on";
+        mode2="on";
+        mode3="on";
+        mode4="on";
+        mode1="on";
     }
     else{
         bg.style.backgroundImage="url('https://wallpaperaccess.com/full/2130690.jpg')";
