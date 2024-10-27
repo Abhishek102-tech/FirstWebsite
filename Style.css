@@ -614,5 +614,22 @@ input::placeholder{
 .ftimg{
     height: 13vh;
     padding: 5px;
-    margin-left: 5vw;
+    margin-left: 3vw;
+}
+.footicon{
+    font-size: 3.4rem;
+    color:  white;
+    background-color: #0f1016;
+    border-radius: 20px;
+    margin-right:5px;
+    border: 2px solid black;
+    margin-left: auto;
+}
+.footplay{
+    font-size: 3.4rem;
+    color:  white;
+    background-color: #0f1016;
+    border-radius: 20px;
+    margin-right:20px;
+    border: 2px solid black;
 }
