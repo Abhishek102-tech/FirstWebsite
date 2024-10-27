@@ -499,6 +499,7 @@ input::placeholder{
     background-color: lightgreen;
     border: 3px solid white;
     border-radius: 20px;
+    margin-right: 5px;
 }
 .favicon:hover{
     background-image:linear-gradient(to bottom, greenyellow,lightgreen);
@@ -543,4 +544,75 @@ input::placeholder{
     color:whitesmoke;
     align-items: center;
     font-size: 1rem;
+}
+.favitem5{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 1vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+.tumbin2{
+    height: 10vh;
+    padding-right: 3vh;
+}
+.favitem6{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 1vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+.ramaiyavastavaiya{
+    height: 10vh;
+    padding-right: 3vh;
+}
+.favitem7{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 1vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+.rockstar{
+    height: 10vh;
+    padding-right: 3vh;
+}
+.favitem8{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 1vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+.favitem9{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 1vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+.songplaying{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    position:sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.ftimg{
+    height: 13vh;
+    padding: 5px;
+    margin-left: 5vw;
 }
