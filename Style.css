@@ -508,3 +508,39 @@ input::placeholder{
     background-image:linear-gradient(to bottom, greenyellow,lightgreen);
     box-shadow: 0px 10px 50px lightgreen;
 }
+.favitem2{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 3vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 2rem;
+}
+.choolo{
+    height: 10vh;
+    padding-right: 3vh;
+}
+
+.favitem3{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 3vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 2rem;
+}
+.InLondon{
+    height: 10vh;
+    padding-right: 3vh;
+}
+.favitem4{
+    display: flex;
+    width: 100vw;
+    border:3px solid white;
+    padding: 3vh;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 2rem;
+}
