@@ -479,7 +479,7 @@ input::placeholder{
     padding: 3vh;
     color:whitesmoke;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .raabta{
     height: 10vh;
@@ -515,7 +515,7 @@ input::placeholder{
     padding: 1vh;
     color:whitesmoke;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .choolo{
     height: 10vh;
@@ -529,7 +529,7 @@ input::placeholder{
     padding: 1vh;
     color:whitesmoke;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .InLondon{
     height: 10vh;
@@ -542,5 +542,5 @@ input::placeholder{
     padding: 1vh;
     color:whitesmoke;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
