@@ -476,7 +476,7 @@ input::placeholder{
     display: flex;
     width: 100vw;
     border:3px solid white;
-    padding: 3vh;
+    padding: 1vh;
     color:whitesmoke;
     align-items: center;
     font-size: 1rem;
