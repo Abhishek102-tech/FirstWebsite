@@ -472,7 +472,8 @@ input::placeholder{
     width: 100vw;
     min-height: fit-content;
 }
-.favitem1{
+
+.favitem{
     display: flex;
     width: 100vw;
     border:3px solid white;
@@ -480,10 +481,6 @@ input::placeholder{
     color:whitesmoke;
     align-items: center;
     font-size: 1rem;
-}
-.raabta{
-    height: 10vh;
-    padding-right: 3vh;
 }
 .favicon{
     margin-left: auto;
@@ -509,98 +506,9 @@ input::placeholder{
     background-image:linear-gradient(to bottom, greenyellow,lightgreen);
     box-shadow: 0px 10px 50px lightgreen;
 }
-.favitem2{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.choolo{
+.simg{
     height: 10vh;
     padding-right: 3vh;
-}
-
-.favitem3{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.InLondon{
-    height: 10vh;
-    padding-right: 3vh;
-}
-.favitem4{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.favitem5{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.tumbin2{
-    height: 10vh;
-    padding-right: 3vh;
-}
-.favitem6{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.ramaiyavastavaiya{
-    height: 10vh;
-    padding-right: 3vh;
-}
-.favitem7{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.rockstar{
-    height: 10vh;
-    padding-right: 3vh;
-}
-.favitem8{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
-}
-.favitem9{
-    display: flex;
-    width: 100vw;
-    border:3px solid white;
-    padding: 1vh;
-    color:whitesmoke;
-    align-items: center;
-    font-size: 1rem;
 }
 .songplaying{
     height: 15vh;
